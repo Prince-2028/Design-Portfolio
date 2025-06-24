@@ -12,7 +12,7 @@ const WorkTogether = () => {
       <div className="flex justify-center gap-10 flex-wrap mb-8">
         <div>
           <div className="text-2xl">✉️</div>
-          <p className="text-sm mt-2 text-gray-700">your.email@example.com</p>
+          <p className="text-sm mt-2 text-gray-700">pk20287022@gmail.com</p>
         </div>
         <div>
           <div className="text-2xl">💼</div>
