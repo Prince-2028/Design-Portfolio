@@ -1,12 +1,61 @@
-# React + Vite
+# 🎨 Merko - Figma Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my design portfolio! This repository showcases some of my best work done in **Figma**, focusing on UI/UX design, prototyping, and creative concepts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 About Me
 
-## Expanding the ESLint configuration
+Hi, I’m \*, a passionate UI/UX designer with a love for minimal, intuitive, and user-centric designs. I specialize in:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Web & mobile interfaces
+- Wireframes and interactive prototypes
+- Design systems & component libraries
+- Visual branding and aesthetics
+
+---
+
+## 📁 What's Inside?
+
+This repository includes:
+
+- 🌐 Web App Designs
+- 📱 Mobile App Interfaces
+- 🧩 Design System Examples
+- 🎯 Case Studies & Design Rationale
+
+> All designs are created using **Figma** and are shared via live links or embedded previews.
+
+---
+
+## 🔗 Figma Links
+
+| Project Name       | Preview | Live Link                              |
+| ------------------ | ------- | -------------------------------------- |
+| Landing Page UI    | ✅      | [View on Figma](https://figma.com/...) |
+| Mobile Finance App | ✅      | [View on Figma](https://figma.com/...) |
+| E-commerce UI Kit  | ✅      | [View on Figma](https://figma.com/...) |
+
+> _Note: Some links may require Figma login access._
+
+---
+
+## 🛠 Tools Used
+
+- **Figma** – UI/UX Design, Prototyping
+- **FigJam** – Ideation, Flowcharts
+- **Notion** – Case study documentation
+- **Photoshop/Illustrator** – Supporting assets
+
+---
+
+## 📬 Contact Me
+
+Let’s connect!  
+📧 Email: [pk20287022@gmail.com]  
+🌐 Portfolio: [https://designportfoliome.netlify.app/]
+
+---
+
+Thank you for visiting 💙  
+If you like what you see, feel free to star ⭐ this repo or reach out for collaborations!
