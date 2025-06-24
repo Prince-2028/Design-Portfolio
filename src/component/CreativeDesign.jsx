@@ -10,12 +10,23 @@ const CreativeDesign = () => {
           creative solutions crafted with Figma.
         </p>
         <div className="flex space-x-6">
-          <button className="bg-blue-600 text-white font-semibold rounded-md px-6 py-3 hover:bg-blue-700 transition">
+          {/* View Projects - scroll to projects section */}
+          <a
+            href="#Projects"
+            className="bg-blue-600 text-white font-semibold rounded-md px-6 py-3 hover:bg-blue-700 transition"
+          >
             View Projects
-          </button>
-          <button className="border-2 border-blue-600 text-blue-600 font-semibold rounded-md px-6 py-3 hover:bg-blue-50 transition">
+          </a>
+
+          {/* Get in Touch - goes to WhatsApp */}
+          <a
+            href="https://wa.me/919138368489"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border-2 border-blue-600 text-blue-600 font-semibold rounded-md px-6 py-3 hover:bg-blue-50 transition"
+          >
             Get in Touch
-          </button>
+          </a>
         </div>
       </main>
     </div>
