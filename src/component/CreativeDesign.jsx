@@ -1,6 +1,6 @@
 const CreativeDesign = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-50 to-purple-50">
+    <div className="h-100 bg-gradient-to-r from-blue-50 to-purple-50">
       <main className="flex flex-col items-center justify-center text-center px-6 py-24 max-w-4xl mx-auto">
         <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-4">
           Creative <span className="text-blue-600">Figma</span> Designs
