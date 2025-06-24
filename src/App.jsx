@@ -3,6 +3,7 @@ import CreativeDesign from "./component/CreativeDesign";
 import Projects from "./component/Project";
 import DesignProcess from "./component/DesignProcess";
 import WorkTogether from "./component/WorkTogether";
+import Footer from "./component/Footer";
 const App = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const App = () => {
       <Projects />
       <DesignProcess />
       <WorkTogether />
+      <Footer />
     </>
   );
 };
