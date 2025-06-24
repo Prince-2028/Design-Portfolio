@@ -23,7 +23,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="#projects"
+                href="#Projects"
                 className="hover:text-blue-600 transition cursor-pointer"
               >
                 Projects

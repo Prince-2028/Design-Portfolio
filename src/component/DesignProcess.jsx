@@ -1,6 +1,6 @@
 const DesignProcess = () => {
   return (
-    <section className="bg-gray-50 py-16 px-6 text-center">
+    <section id="about" className="bg-gray-50 py-16 px-6 text-center">
       <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
         About My Design Process
       </h2>
