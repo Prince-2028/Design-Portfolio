@@ -43,12 +43,25 @@ const WorkTogether = () => {
       </div>
 
       <div className="flex justify-center gap-4">
-        <button className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">
-          Send Message
-        </button>
-        <button className="border border-blue-600 text-blue-600 px-6 py-2 rounded hover:bg-blue-50 transition">
+        {/* WhatsApp Button */}
+        <a
+          href="https://wa.me/919138368489"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 transition"
+        >
+          Message on WhatsApp
+        </a>
+
+        {/* Local Resume PDF */}
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border border-blue-600 text-blue-600 px-6 py-2 rounded hover:bg-blue-50 transition"
+        >
           View Resume
-        </button>
+        </a>
       </div>
     </section>
   );
