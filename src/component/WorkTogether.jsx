@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const WorkTogether = () => {
   return (
     <section id="contact" className="py-16 px-6 text-center">
@@ -10,58 +12,77 @@ const WorkTogether = () => {
       </p>
 
       <div className="flex justify-center gap-10 flex-wrap mb-8">
-        <div>
-          <div className="text-2xl">✉️</div>
-          <p className="text-sm mt-2 text-gray-700">pk20287022@gmail.com</p>
-        </div>
-        <div>
-          <div className="text-2xl">💼</div>
-          <p className="text-sm mt-2 text-gray-700">
-            <a
-              href="https://princefolioverse.netlify.app/"
-              className="text-blue-600 hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visit My Portfolio
-            </a>
-          </p>
-        </div>
-        <div>
-          <div className="text-2xl">🐙</div>
-          <p className="text-sm mt-2 text-gray-700">
-            <a
-              href="https://github.com/Prince-2028"
-              className="text-blue-600 hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Follow Me on GitHub
-            </a>
-          </p>
-        </div>
+        {/*
+          {
+            icon: "✉️",
+            label: "pk20287022@gmail.com",
+            link: null,
+          },
+          {
+            icon: "💼",
+            label: "Visit My Portfolio",
+            link: "https://princefolioverse.netlify.app/",
+          },
+          {
+            icon: "🐙",
+            label: "Follow Me on GitHub",
+            link: "https://github.com/Prince-2028",
+          },
+        ].map((item, idx) => (
+          <motion.div
+            key={idx}
+            initial={{ opacity: 0, y: 40, scale: 0.95 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ delay: idx * 0.15, duration: 0.7, type: "spring", stiffness: 80 }}
+            viewport={{ once: false, amount: 0.2 }}
+          >
+            <div className="text-2xl">{item.icon}</div>
+            <p className="text-sm mt-2 text-gray-700">
+              {item.link ? (
+                <a
+                  href={item.link}
+                  className="text-blue-600 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                item.label
+              )}
+            </p>
+          </motion.div>
+        ))}
       </div>
 
       <div className="flex justify-center gap-4">
         {/* WhatsApp Button */}
-        <a
+        <motion.a
           href="https://wa.me/919138368489"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 transition"
+          initial={{ opacity: 0, y: 40, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ delay: 0.3, duration: 0.7, type: "spring", stiffness: 80 }}
+          viewport={{ once: false, amount: 0.2 }}
         >
           Message on WhatsApp
-        </a>
+        </motion.a>
 
         {/* Local Resume PDF */}
-        <a
+        <motion.a
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-blue-600 text-blue-600 px-6 py-2 rounded hover:bg-blue-50 transition"
+          initial={{ opacity: 0, y: 40, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ delay: 0.45, duration: 0.7, type: "spring", stiffness: 80 }}
+          viewport={{ once: false, amount: 0.2 }}
         >
           View Resume
-        </a>
+        </motion.a>
       </div>
     </section>
   );
