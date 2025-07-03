@@ -41,6 +41,14 @@ const CreativeDesign = () => {
               stiffness: 80,
             }}
             viewport={{ once: false, amount: 0.5 }}
+            whileHover={{
+              scale: 1.04,
+              backgroundColor: "#2563eb",
+              color: "#fff",
+              filter: "brightness(1.15) drop-shadow(0 4px 24px #2563eb33)",
+              letterSpacing: "2px",
+            }}
+            whileTap={{ scale: 0.98, filter: "brightness(0.95)" }}
           >
             View Projects
           </motion.a>
@@ -58,6 +66,15 @@ const CreativeDesign = () => {
               stiffness: 80,
             }}
             viewport={{ once: false, amount: 0.5 }}
+            whileHover={{
+              scale: 1.04,
+              backgroundColor: "#e0e7ff",
+              color: "#2563eb",
+              borderColor: "#2563eb",
+              filter: "brightness(1.10) drop-shadow(0 4px 24px #2563eb22)",
+              letterSpacing: "2px",
+            }}
+            whileTap={{ scale: 0.98, filter: "brightness(0.95)" }}
           >
             Get in Touch
           </motion.a>

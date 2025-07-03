@@ -66,6 +66,14 @@ const WorkTogether = () => {
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ delay: 0.3, duration: 0.7, type: "spring", stiffness: 80 }}
           viewport={{ once: false, amount: 0.2 }}
+          whileHover={{
+            scale: 1.04,
+            backgroundColor: "#22c55e",
+            color: "#fff",
+            filter: "brightness(1.15) drop-shadow(0 4px 24px #22c55e33)",
+            letterSpacing: "2px",
+          }}
+          whileTap={{ scale: 0.98, filter: "brightness(0.95)" }}
         >
           Message on WhatsApp
         </motion.a>
@@ -80,6 +88,15 @@ const WorkTogether = () => {
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ delay: 0.45, duration: 0.7, type: "spring", stiffness: 80 }}
           viewport={{ once: false, amount: 0.2 }}
+          whileHover={{
+            scale: 1.04,
+            backgroundColor: "#e0e7ff",
+            color: "#2563eb",
+            borderColor: "#2563eb",
+            filter: "brightness(1.10) drop-shadow(0 4px 24px #2563eb22)",
+            letterSpacing: "2px",
+          }}
+          whileTap={{ scale: 0.98, filter: "brightness(0.95)" }}
         >
           View Resume
         </motion.a>
